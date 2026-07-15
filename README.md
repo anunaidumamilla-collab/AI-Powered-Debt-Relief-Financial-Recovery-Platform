@@ -28,8 +28,8 @@ The AI Powered Debt Relief & Financial Recovery Platform is a web application de
 ## Project Structure
 
 ```
-backend/
-frontend/
+Backend/
+Frontend/
 README.md
 ```
 
