@@ -1,17 +1,18 @@
 # AI Powered Debt Relief & Financial Recovery Platform
 
-## Project Overview
+## Project Description
 
-The AI Powered Debt Relief & Financial Recovery Platform is a web application that helps borrowers manage their loans, evaluate their financial health, and receive AI-powered settlement recommendations.
+The AI Powered Debt Relief & Financial Recovery Platform is a web application developed to help borrowers manage loan information, evaluate financial health, and receive AI-powered settlement recommendations. The system also generates professional negotiation letters for communicating with lenders.
 
-The system allows users to:
+## Features
 
-* Register and login securely
-* Add and manage loan details
-* Track financial health
-* Generate AI-powered settlement recommendations
-* Generate professional loan negotiation letters
-* Store loan records using SQLite database
+* User Loan Management
+* Financial Health Analysis
+* Debt Stress Calculation
+* AI Settlement Recommendation
+* Negotiation Letter Generation
+* SQLite Database
+* FastAPI Backend
 
 ## Technologies Used
 
@@ -22,32 +23,51 @@ The system allows users to:
 * HTML
 * CSS
 * JavaScript
-* Google Gemini API
-
-## Features
-
-* User Authentication
-* Loan Management
-* Financial Health Dashboard
-* AI Settlement Recommendation
-* AI Negotiation Letter Generator
-* Loan History
+* Google Gemini AI (Future Integration)
 
 ## Project Structure
 
-* Backend developed using FastAPI
-* SQLite Database
-* HTML/CSS Frontend
-* AI Integration using Gemini API
+```
+backend/
+frontend/
+README.md
+```
+
+## How to Run
+
+Install the required packages:
+
+```
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```
+uvicorn main:app --reload
+```
+
+Open the application:
+
+```
+http://127.0.0.1:8000
+```
+
+API Documentation:
+
+```
+http://127.0.0.1:8000/docs
+```
 
 ## Future Enhancements
 
-* Email Notifications
+* JWT Authentication
+* React Frontend
+* Dashboard Analytics
+* Gemini AI Integration
 * PDF Report Generation
-* Cloud Deployment
-* Credit Score Prediction
 
-## Team
+## Team Members
 
 * Anusha Mamilla (Team Lead)
 * Lalitha Vatram
